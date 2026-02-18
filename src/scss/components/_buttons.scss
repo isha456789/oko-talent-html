@@ -1,0 +1,49 @@
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  appearance: none !important;
+  -moz-appearance: none !important;
+  -webkit-appearance: none !important;
+}
+
+.btnA {
+  height: 50px;
+  padding-left: 32px;
+  padding-right: 32px;
+  transition: all 0.3s ease-in-out;
+
+  &.bg-A3E8BF-btn {
+    background-color: $color-A3E8BF;
+    color: $white;
+
+    &:hover {
+      background-color: $white;
+      color: $color-A3E8BF;
+    }
+  }
+  &.border-A3E8BF-btn {
+    background-color: transparent;
+    border: 1px solid $white;
+    color: $white;
+
+    &:hover {
+      background-color: $white;
+      color: $color-A3E8BF;
+    }
+  }
+  &.bg-2E3038-btn{
+     background-color: $color-2E3038;
+    color: $white;
+
+    &:hover {
+      background-color: $white;
+      color: $color-2E3038;
+    }
+  }
+
+  &.btnB {
+    height: 64px;
+    
+  }
+}

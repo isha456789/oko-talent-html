@@ -1,0 +1,91 @@
+.hero-section {
+  height: 803px;
+
+  .hero-bg-layer {
+    height: 475px;
+    background-image: linear-gradient(
+      180deg,
+      rgba($color: $black, $alpha: 0),
+      rgba($color: $color-656565, $alpha: 1)
+    );
+    backdrop-filter: 54px;
+  }
+}
+
+.logo-slider-section {
+  .logo-img {
+    height: 95px;
+  }
+}
+
+.image-video-section {
+  .full-image-video {
+    height: 660px;
+    .play-btn {
+      img {
+        height: 13px;
+      }
+
+      &:hover {
+        img {
+          filter: invert(1);
+        }
+      }
+    }
+  }
+}
+
+.why-chooes-section {
+  .chooes-card {
+    .chooes-icon {
+      width: 64px;
+      height: 64px;
+
+      .choose-img {
+        height: 36px;
+      }
+    }
+  }
+}
+
+.counter-section {
+  height: 284px;
+
+  .counter-card {
+    border-right: 1px solid rgba($color: $white, $alpha: 0.1);
+
+    &:last-child {
+      border-right: 0px;
+    }
+  }
+}
+
+.process-section {
+  .process-num {
+    border: 4px solid $color-BA9EDE;
+    padding: 14px 25px 14px 25px;
+  }
+}
+
+.testimonial-section{
+  .testimonal-icon{
+    width: 48px;
+    height: 60px;
+    top: 24px;
+    left: 39px;
+  }
+}
+
+
+.banner-section {
+  height: 507px;
+
+  .banner-layer {
+    background-image: radial-gradient(
+      circle,
+      rgba($color: $color-A3E8BF00, $alpha: 0) 5%,
+      rgba($color: $color-A3E8BF, $alpha: 1) 100%
+    );
+    opacity: 50%;
+  }
+}
