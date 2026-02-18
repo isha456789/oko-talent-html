@@ -17977,4 +17977,20 @@ button,
   opacity: 50%;
 }
 
+.OKO-story-section .story-bg-layer {
+  background: linear-gradient(120deg, rgba(187, 160, 222, 0) 0%, rgb(187, 160, 222) 100%);
+}
+
+.mission-visin-section .mission-bg {
+  width: 64px;
+  height: 64px;
+}
+.mission-visin-section .mission-bg .mission-img {
+  height: 38px;
+}
+
+.leadership-section .leader-img {
+  height: 373px;
+}
+
 /*# sourceMappingURL=main.css.map */
