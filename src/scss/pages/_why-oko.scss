@@ -1,0 +1,39 @@
+.why-oko-section {
+  height: 531px;
+  .oko-layer {
+  }
+}
+
+.Advantage-section {
+  .advantage-card {
+    background: rgba(46, 48, 56, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0);
+  }
+}
+
+.road-map-section {
+  .roadmap-slider {
+    width: 100%;
+  }
+  .roadmap-number {
+    padding: 14px 25px 14px 25px;
+  }
+}
+
+.faq-section {
+  .faq-wrapper {
+    .faq-item {
+      padding: 22px 26px;
+    }
+    .faq-answer {
+      display: none;
+    }
+    .faq-item.active .faq-answer {
+      display: block;
+    }
+    .faq-item.active .faq-icon{
+    transform:rotate(45deg); 
+}
+
+  }
+}

@@ -32,8 +32,43 @@ button,
       color: $color-A3E8BF;
     }
   }
-  &.bg-2E3038-btn{
-     background-color: $color-2E3038;
+  &.bg-text-A3E8BF-btn {
+    background-color: transparent;
+    border: 1px solid $white;
+    color: $white;
+
+    &:hover {
+      background-color: $white;
+      color: $color-BA9EDE;
+    }
+  }
+
+  &.bg-BA9EDE-btn{
+    background-color: $color-BA9EDE;
+    color: $white;
+
+    &:hover {
+      background-color: $white;
+      color: $color-BA9EDE;
+      border: 1px solid $color-BA9EDE;
+    }
+  }
+
+  &.bg-white-btn {
+    background-color: $white;
+    border: 1px solid rgba($color: $color-2E3038, $alpha: 0.2);
+    color: $color-2E3038;
+
+    &:hover {
+      background-color: $color-2E3038 ;
+      color: $white;
+      border: 1px solid rgba($color: $color-2E3038, $alpha: 0.2);
+
+    }
+  }
+
+  &.bg-2E3038-btn {
+    background-color: $color-2E3038;
     color: $white;
 
     &:hover {
@@ -44,6 +79,5 @@ button,
 
   &.btnB {
     height: 64px;
-    
   }
 }

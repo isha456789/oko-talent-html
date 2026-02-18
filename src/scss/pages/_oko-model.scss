@@ -1,0 +1,75 @@
+.model-hero-section {
+  height: 595px;
+}
+
+.process-cycle-section {
+  .process-cycle-card {
+    background: rgba(46, 48, 56, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0);
+  }
+}
+
+.sucess-table-section {
+  .compare-table {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+    .table-row {
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    .table-col {
+      padding: 24px 18px;
+    }
+
+    .table-col.feature {
+      flex: 0.9;
+    }
+
+    .table-col.agency {
+      flex: 1;
+      text-align: center;
+    }
+
+    .table-col.oko {
+      flex: 1;
+      text-align: center;
+    }
+
+    .table-header .table-col:not(:last-child) {
+      border-right: 1px solid rgba(255, 255, 255, 0.2);
+    }
+  }
+}
+
+.oko-model-section {
+  .oko-card {
+    box-shadow: 0 0px 22px rgba(0, 0, 0, 0.07);
+  }
+  .popular-card {
+    top: 0;
+    right: 0;
+    padding: 6px 16px;
+    border-bottom-left-radius: 12px;
+  }
+}
+
+
+.traditional-section{
+.traditional-left{
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.12);
+      backdrop-filter: blur(4px);
+}
+
+}
+
+.independence-section {
+  .independence-slider {
+    width: 100%;
+  }
+  .independence-number {
+    padding: 14px 25px 14px 25px;
+  }
+}

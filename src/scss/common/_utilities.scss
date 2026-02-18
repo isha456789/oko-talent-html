@@ -19,6 +19,12 @@
 .bg-2E30381A{
     background-color: $color-2E30381A;
 }
+.bg-E7DEF3{
+    background-color: $color-E7DEF3;
+}
+.bg-FAFAFA{
+    background-color: $color-FAFAFA;
+}
 
 
 .text-A3E8BF{
@@ -42,8 +48,9 @@
 .text-2E30381A {
     color: $color-2E30381A;
 }
-
-
+.text-4B5563 {
+    color: $color-4B5563;
+}
 
 .font12{
     font-size: $font12;
@@ -175,7 +182,9 @@
 .space-1_5{
     letter-spacing:  $space-1_5;
 }
-
+.space-0_9{
+    letter-spacing:  $space-0_9;
+}
 
 .opacity10{
     opacity: $opacity10;
@@ -188,6 +197,9 @@
 }
 .opacity70{
     opacity: $opacity70;
+}
+.opacity60{
+    opacity: $opacity60;
 }
 
 .radius16{

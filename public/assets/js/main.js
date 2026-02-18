@@ -2055,6 +2055,59 @@ var popper_lite_createPopper = /*#__PURE__*/popperGenerator({
 
 /***/ }),
 
+/***/ 212:
+/***/ (() => {
+
+// export class Accordion {
+//     init() {
+//         // this.Accordion();
+
+//     }
+//     // Accordion() {
+//     //     $(document).ready(function () {
+//     //         // Open the first child by default
+//     //         $('.closet-header').first().addClass('active').next('.closet-content').slideDown();
+
+//     //         // Handle click events for closet headers
+//     //         $('.closet-header').click(function () {
+//     //             $(this).toggleClass('active').next('.closet-content').slideToggle();
+//     //             $('.closet-header').not(this).removeClass('active').next('.closet-content').slideUp();
+//     //         });
+//     //     });
+//     // }
+
+// }
+
+// document.querySelectorAll(".faq-question").forEach(q => {
+
+//   q.addEventListener("click", () => {
+
+//     const item = q.parentElement;
+//     document.querySelectorAll(".faq-item").forEach(i => {
+//       if(i !== item){
+//         i.classList.remove("active");
+//       }
+//     });
+//     item.classList.toggle("active");
+
+//   });
+
+// });
+
+document.querySelectorAll(".faq-icon").forEach(function (icon) {
+  icon.addEventListener("click", function () {
+    var item = icon.closest(".faq-item");
+    document.querySelectorAll(".faq-item").forEach(function (i) {
+      if (i !== item) {
+        i.classList.remove("active");
+      }
+    });
+    item.classList.toggle("active");
+  });
+});
+
+/***/ }),
+
 /***/ 734:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -20435,7 +20488,8 @@ var Plugins = /*#__PURE__*/function () {
     key: "init",
     value: function init() {
       this.logoslider();
-      this.testimonialslider();
+      this.Roadmapslider();
+      this.IndependenceSlider();
     }
   }, {
     key: "logoslider",
@@ -20447,6 +20501,34 @@ var Plugins = /*#__PURE__*/function () {
         speed: 1000,
         slidesToShow: 6,
         slidesToScroll: 1
+      });
+    }
+  }, {
+    key: "Roadmapslider",
+    value: function Roadmapslider() {
+      var slider = $(".roadmap-slider");
+      slider.slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: true,
+        dots: false,
+        infinite: false,
+        autoplay: true,
+        spped: 300
+      });
+    }
+  }, {
+    key: "IndependenceSlider",
+    value: function IndependenceSlider() {
+      var slider = $(".independence-slider");
+      slider.slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: true,
+        dots: false,
+        infinite: false,
+        autoplay: true,
+        spped: 300
       });
     }
   }]);
@@ -20497,39 +20579,8 @@ var Truncate = /*#__PURE__*/function () {
   }]);
   return Truncate;
 }();
-;// CONCATENATED MODULE: ./src/js/parts/accordion.js
-function accordion_typeof(obj) { "@babel/helpers - typeof"; return accordion_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, accordion_typeof(obj); }
-function accordion_classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-function accordion_defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, accordion_toPropertyKey(descriptor.key), descriptor); } }
-function accordion_createClass(Constructor, protoProps, staticProps) { if (protoProps) accordion_defineProperties(Constructor.prototype, protoProps); if (staticProps) accordion_defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
-function accordion_toPropertyKey(arg) { var key = accordion_toPrimitive(arg, "string"); return accordion_typeof(key) === "symbol" ? key : String(key); }
-function accordion_toPrimitive(input, hint) { if (accordion_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (accordion_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
-var Accordion = /*#__PURE__*/function () {
-  function Accordion() {
-    accordion_classCallCheck(this, Accordion);
-  }
-  accordion_createClass(Accordion, [{
-    key: "init",
-    value: function init() {
-      this.Accordion();
-    }
-  }, {
-    key: "Accordion",
-    value: function Accordion() {
-      $(document).ready(function () {
-        // Open the first child by default
-        $('.closet-header').first().addClass('active').next('.closet-content').slideDown();
-
-        // Handle click events for closet headers
-        $('.closet-header').click(function () {
-          $(this).toggleClass('active').next('.closet-content').slideToggle();
-          $('.closet-header').not(this).removeClass('active').next('.closet-content').slideUp();
-        });
-      });
-    }
-  }]);
-  return Accordion;
-}();
+// EXTERNAL MODULE: ./src/js/parts/accordion.js
+var accordion = __webpack_require__(212);
 ;// CONCATENATED MODULE: ./src/js/parts/privacy.js
 function privacy_typeof(obj) { "@babel/helpers - typeof"; return privacy_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, privacy_typeof(obj); }
 function privacy_classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -20602,7 +20653,7 @@ jquery_default()(function () {
   window.parts.init();
   window.truncate = new Truncate();
   window.truncate.init();
-  window.accordion = new Accordion();
+  window.accordion = new accordion.Accordion();
   window.accordion.init();
   window.privacy = new Privacy();
   window.privacy.init();
