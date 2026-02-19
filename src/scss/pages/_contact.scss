@@ -1,0 +1,20 @@
+.contact-card-section {
+  .contact-card {
+    box-shadow: 0 0px 22px rgba(0, 0, 0, 0.07);
+
+    .contact-icon {
+      width: 64px;
+      height: 64px;
+
+      .contact-img {
+        height: 36px;
+      }
+    }
+  }
+}
+
+.contact-form-section{
+    .card-border{
+        border-bottom: 1px solid rgba($color: $color-2E303833, $alpha: 0.2);;
+    }
+}

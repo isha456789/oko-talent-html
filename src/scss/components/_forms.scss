@@ -1,0 +1,14 @@
+.input {
+  height: 47px;
+  border: 1px solid $color-E5E7EB;
+  &::placeholder {
+    color: $color-9CA3AF;
+  }
+}
+.textarea{
+    height: 110px;
+    border: 1px solid $color-E5E7EB;
+  &::placeholder {
+    color: $color-9CA3AF;
+  }
+}

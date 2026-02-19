@@ -66,10 +66,23 @@
 }
 
 .independence-section {
-  .independence-slider {
-    width: 100%;
-  }
   .independence-number {
-    padding: 14px 25px 14px 25px;
+    padding: 14px 25px;
+  }
+}
+
+.Ecosystem-section{
+  .ecosystem-icon{
+    width: 64px;
+    height: 64px;
+  }
+  .ecosystem-img{
+    height: 36px;
+  }
+}
+
+.traditinoal-section{
+  .traditional-left{
+    box-shadow: 0 0px 22px rgba(0, 0, 0, 0.07);
   }
 }

@@ -1,7 +1,5 @@
 .why-oko-section {
   height: 531px;
-  .oko-layer {
-  }
 }
 
 .Advantage-section {
@@ -12,9 +10,6 @@
 }
 
 .road-map-section {
-  .roadmap-slider {
-    width: 100%;
-  }
   .roadmap-number {
     padding: 14px 25px 14px 25px;
   }
@@ -31,9 +26,8 @@
     .faq-item.active .faq-answer {
       display: block;
     }
-    .faq-item.active .faq-icon{
-    transform:rotate(45deg); 
-}
-
+    .faq-item.active .faq-icon {
+      transform: rotate(45deg);
+    }
   }
 }
