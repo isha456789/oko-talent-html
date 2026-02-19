@@ -17492,6 +17492,15 @@ textarea {
   padding-right: 11px;
 }
 
+.row12 {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.row12 > * {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
 .row16 {
   margin-left: -16px;
   margin-right: -16px;
@@ -17866,6 +17875,10 @@ textarea {
   border-radius: 8px;
 }
 
+.radius10 {
+  border-radius: 10px;
+}
+
 button,
 [type=button],
 [type=reset],
@@ -18039,6 +18052,18 @@ button,
 .prefix.bg-2E30381A-prefix {
   background-color: rgba(46, 48, 56, 0.1);
   color: #2E3038;
+}
+
+.news-left-right-card {
+  box-shadow: 0px 0px 15px rgba(46, 48, 56, 0.1);
+}
+
+.left-news-img {
+  height: 480px;
+}
+
+.news-card-section .latest-card {
+  box-shadow: 0px 0px 9px rgba(46, 48, 56, 0.1);
 }
 
 .hero-section {
@@ -18224,6 +18249,17 @@ button,
 
 .contact-form-section .card-border {
   border-bottom: 1px solid rgba(46, 48, 56, 0.2);
+}
+
+.news-insights .news-left-right-card {
+  box-shadow: 0px 0px 15px rgba(46, 48, 56, 0.1);
+}
+.news-insights .left-news-img {
+  height: 480px;
+}
+
+.news-card-section .latest-card {
+  box-shadow: 0px 0px 9px rgba(46, 48, 56, 0.1);
 }
 
 /*# sourceMappingURL=main.css.map */
