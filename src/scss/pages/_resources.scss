@@ -1,0 +1,34 @@
+
+
+.success-toolkit-section{
+    .resources-bg{
+       width: 48px;
+       height: 48px;
+       background-color: rgba($color: $color-A3E8BF, $alpha: 0.2);;
+    }
+    .resources-img{
+        height: 28px;
+
+    }
+}
+
+.academy-section{
+    .academy-border{
+        border-bottom:1px solid $color-E5E7EB;
+    }
+    .candidate-icon {
+        height: 16px;
+    }
+}
+
+
+
+ .support-section{
+    .support-bg{
+        width: 64px;
+        height: 64px;
+    }
+    .support-bg img{
+        height: 28px !important;
+    }
+ }

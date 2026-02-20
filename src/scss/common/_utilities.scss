@@ -54,6 +54,9 @@
 .text-9CA3AF{
     color: $color-9CA3AF;
 }
+.text-D1D5DB{
+    color: $color-D1D5DB;
+}
 
 .font12{
     font-size: $font12;
@@ -161,6 +164,9 @@
 .space1_2{
     letter-spacing:  $space1_2;
 }
+.space-1_2{
+    letter-spacing:  $space-1_2;
+}
 .space0_6{
     letter-spacing:  $space0_6;
 }
@@ -188,6 +194,9 @@
 .space-0_9{
     letter-spacing:  $space-0_9;
 }
+.space0_3{
+    letter-spacing:  $space0_3;
+}
 
 .opacity10{
     opacity: $opacity10;
@@ -213,4 +222,7 @@
 }
 .radius10{
     border-radius: $radius10;
+}
+.radius24{
+    border-radius: $radius24;
 }

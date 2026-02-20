@@ -1,0 +1,24 @@
+.related-news-section{
+    .related-img {
+        height: 356px;
+    }
+    .icon-main{
+        padding-right: 25px;
+        &:last-child{
+            padding-right: 0px !important;
+        }
+    }
+    .icon-img{
+        padding-right: 8px;
+
+    }
+}
+
+.related-news-section{
+  .related-card{
+    box-shadow: 0px 0px 9px rgba($color: $color-2E30381A, $alpha: 0.1);
+  } 
+  .related-img{
+    height: 192px;
+  }
+}
