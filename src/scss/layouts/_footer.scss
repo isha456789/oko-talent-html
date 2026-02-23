@@ -1,0 +1,25 @@
+.footer{
+    .footer-logo{
+        height: 70px;
+    }
+    ul{
+        padding-left: 0px !important;
+        list-style: none;
+    }
+    .footer-img{
+    background: rgba(255,255,255,0.05);
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+      &:last-child{
+        margin-right: 0px !important;
+      }
+    }
+    .icon-image{
+        height: 13px;
+    }
+
+    .footer-bottom{
+        border-top: 1px solid rgba($color: $white, $alpha: 0.1);;
+    }
+}

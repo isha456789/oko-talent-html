@@ -17679,6 +17679,9 @@ textarea {
   color: #D1D5DB;
 }
 
+  color: #6B7280;
+}
+
 .font12 {
   font-size: 12px;
 }
@@ -17955,6 +17958,16 @@ button,
   color: #fff;
   border: 1px solid rgba(46, 48, 56, 0.2);
 }
+.btnA.bg-black-btn {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.btnA.bg-black-btn:hover {
+  background-color: #fff;
+  color: #2E3038;
+  border: 1px solid rgba(46, 48, 56, 0.2);
+}
 .btnA.bg-2E3038-btn {
   background-color: #2E3038;
   color: #fff;
@@ -18048,12 +18061,63 @@ button,
   z-index: -1;
 }
 
+.article-cards .article-icon {
+  height: 16px;
+}
+.article-cards .article-tags::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #ba9ede;
+}
+
 .independence-slider .slick-list {
   overflow: visible;
 }
 
 .roadmap-slider .slick-list {
   overflow: visible;
+}
+
+.header .header-logo {
+  height: 22px;
+}
+.header nav ul {
+  padding-left: 0px !important;
+  list-style: none;
+}
+.header nav li {
+  padding-right: 32px;
+}
+.header nav li:last-child {
+  padding-right: 0px !important;
+}
+
+.footer .footer-logo {
+  height: 70px;
+}
+.footer ul {
+  padding-left: 0px !important;
+  list-style: none;
+}
+.footer .footer-img {
+  background: rgba(255, 255, 255, 0.05);
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
+}
+.footer .footer-img:last-child {
+  margin-right: 0px !important;
+}
+.footer .icon-image {
+  height: 13px;
+}
+.footer .footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .prefix {
@@ -18127,12 +18191,11 @@ button,
   height: 507px;
 }
 .banner-section .banner-layer {
-  background: radial-gradient(circle, rgba(163, 232, 191, 0) 0%, rgb(46, 48, 56) 100%);
-  opacity: 50%;
+  background: radial-gradient(circle at 30% 50%, rgba(161, 232, 191, 0) 5%, rgb(163, 232, 191) 139%);
 }
 
 .OKO-story-section .story-bg-layer {
-  background: linear-gradient(120deg, rgba(187, 160, 222, 0) 0%, rgb(187, 160, 222) 100%);
+  background: linear-gradient(45deg, rgb(46, 48, 56) 0%, rgb(187, 160, 222) 100%);
 }
 
 .mission-visin-section .mission-bg {
@@ -18149,6 +18212,9 @@ button,
 
 .why-oko-section {
   height: 531px;
+}
+.why-oko-section .oko-layer {
+  background: linear-gradient(rgba(46, 48, 56, 0.5), rgba(186, 158, 222, 0.3) 100%);
 }
 
 .Advantage-section .advantage-card {
@@ -18175,6 +18241,9 @@ button,
 
 .model-hero-section {
   height: 595px;
+}
+.model-hero-section .Model-bg-layer {
+  background: linear-gradient(rgba(46, 48, 56, 0.8), rgba(186, 158, 222, 0.2) 100%);
 }
 
 .process-cycle-section .process-cycle-card {
@@ -18218,12 +18287,6 @@ button,
   border-bottom-left-radius: 12px;
 }
 
-.traditional-section .traditional-left {
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  backdrop-filter: blur(4px);
-}
-
 .independence-section .independence-number {
   padding: 14px 25px;
 }
@@ -18236,8 +18299,35 @@ button,
   height: 36px;
 }
 
-.traditinoal-section .traditional-left {
-  box-shadow: 0 0px 22px rgba(0, 0, 0, 0.07);
+.traditional-section .traditional-left {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0px 22px rgba(0, 0, 0, 0.04);
+  backdrop-filter: blur(4px);
+}
+.traditional-section .traditional-left .badge {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.traditional-section .traditional-left .badge:last-child {
+  border-bottom: 0px !important;
+}
+.traditional-section .traditinoal-right {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0px 22px rgba(0, 0, 0, 0.04);
+  backdrop-filter: blur(4px);
+}
+.traditional-section .traditinoal-right .badge {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.traditional-section .traditinoal-right .badge:last-child {
+  border-bottom: 0px !important;
+}
+.traditional-section .traditinoal-right .right-highlight {
+  top: -15px;
+  right: -15px;
+  padding: 6px 14px;
+  border-radius: 20px;
 }
 
 .contact-card-section .contact-card {

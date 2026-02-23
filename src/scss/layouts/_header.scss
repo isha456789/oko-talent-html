@@ -1,0 +1,18 @@
+.header{
+    .header-logo{
+        height: 22px;
+    }
+    nav{
+        ul{
+            padding-left: 0px !important;
+            list-style: none;
+        }
+        li{
+            padding-right: 32px;
+
+            &:last-child{
+                padding-right: 0px !important;
+            }
+        }
+    }
+}

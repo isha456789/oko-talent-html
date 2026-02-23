@@ -1,5 +1,11 @@
 .model-hero-section {
   height: 595px;
+  .Model-bg-layer {
+    background: linear-gradient(
+      rgba(46, 48, 56, 0.8),
+      rgba(186, 158, 222, 0.2) 100%
+    );
+  }
 }
 
 .process-cycle-section {
@@ -55,34 +61,57 @@
   }
 }
 
-
-.traditional-section{
-.traditional-left{
-      background: rgba(255,255,255,0.04);
-      border: 1px solid rgba(255,255,255,0.12);
-      backdrop-filter: blur(4px);
-}
-
-}
-
 .independence-section {
   .independence-number {
     padding: 14px 25px;
   }
 }
 
-.Ecosystem-section{
-  .ecosystem-icon{
+.Ecosystem-section {
+  .ecosystem-icon {
     width: 64px;
     height: 64px;
   }
-  .ecosystem-img{
+  .ecosystem-img {
     height: 36px;
   }
 }
 
-.traditinoal-section{
-  .traditional-left{
-    box-shadow: 0 0px 22px rgba(0, 0, 0, 0.07);
+.traditional-section {
+  .traditional-left {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0px 22px rgba(0, 0, 0, 0.04);
+    backdrop-filter: blur(4px);
+
+    .badge {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+
+      &:last-child{
+        border-bottom: 0px !important;
+      }
+    }
+  }
+
+  .traditinoal-right {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0px 22px rgba(0, 0, 0, 0.04);
+    backdrop-filter: blur(4px);
+
+    .badge {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+
+      &:last-child{
+        border-bottom: 0px !important;
+      }
+    }
+    .right-highlight {
+      top: -15px;
+      right: -15px;
+      padding: 6px 14px;
+       border-radius:20px;
+    }
+
   }
 }

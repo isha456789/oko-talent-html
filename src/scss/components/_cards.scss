@@ -89,3 +89,21 @@
       }
   }
 }
+
+.article-cards{
+   .article-icon{
+        height: 16px;
+    }
+    .article-tags{
+      &::after{
+        content: "";
+        position: absolute;
+        top: 5px;
+        left: 0;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: rgba($color: $color-BA9EDE, $alpha: 1);
+      }
+    }
+}

@@ -67,6 +67,20 @@ button,
     }
   }
 
+  
+  &.bg-black-btn {
+    background-color: transparent;
+    border: 1px solid rgba($color: $white, $alpha: 0.2);
+    color: $white;
+
+    &:hover {
+      background-color: $white;
+      color:  $color-2E3038;
+      border: 1px solid rgba($color: $color-2E3038, $alpha: 0.2);
+
+    }
+  }
+
   &.bg-2E3038-btn {
     background-color: $color-2E3038;
     color: $white;
