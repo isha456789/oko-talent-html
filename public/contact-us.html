@@ -211,14 +211,7 @@
                         </div>
                         <div class="col-6 dmb-10"> 
                           <div class="sora-bold font14 leading20 text-2E3038 dmb-10">Enquiry Type </div>
-                          <div class="categories-select position-relative overflow-hidden h-100 cursor-pointer w-100">
-                            <select class="enquiry-select d-none w-100" data-placeholder="General Enquiry">
-                              <option></option>
-                              <option value="General Enquiry">General Enquiry</option>
-                              <option value="Vacancy">Vacancy</option>
-                              <option value="Events">Events</option>
-                            </select>
-                          </div>  
+                          <input type="text" class="input bg-white w-100 sora-regular font14 leading20 text-9CA3AF px-3 radius8" placeholder="General Enquiry" />
                         </div>
                         <div class="col-12 dmb-10"> 
                           <div class="sora-bold font14 leading20 text-2E3038 dmb-10">Message </div>
@@ -246,13 +239,5 @@
       crossorigin="anonymous"
     ></script>
     <script src="assets/js/main.js"></script>
-    <script>
-       $(".enquiry-select").select2({
-            closeOnSelect: true,
-            minimumResultsForSearch: Infinity,
-            allowClear: false,
-            dropdownCssClass: "categories-select2",
-        });
-    </script>
   </body>
 </html>

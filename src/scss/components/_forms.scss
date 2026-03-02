@@ -1,105 +1,14 @@
 .input {
   height: 47px;
   border: 1px solid $color-E5E7EB;
-
   &::placeholder {
     color: $color-9CA3AF;
   }
 }
-
-.textarea {
-  height: 110px;
-  border: 1px solid $color-E5E7EB;
-
-  &::placeholder {
-    color: $color-9CA3AF;
-  }
-}
-
-.select2-container {
-  width: 100% !important;
-  display: inline-flex;
-
-  .select2-selection--single[aria-expanded="true"] {
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-bottom: 0px;
-
-    .select2-selection__arrow {
-      transform: rotate(180deg);
-      transition: all 0.3s ease-in-out;
-    }
-  }
-
-  .selection {
-    width: 100%;
-  }
-
-  .select2-selection--single {
+.textarea{
+    height: 110px;
     border: 1px solid $color-E5E7EB;
-    width: 100%;
-    height: 46px;
-    display: flex;
-    border-radius: $radius8;
-    padding-left: 16px;
-    padding-right: 16px;
-
-    .select2-selection__rendered {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      align-items: center;
-
-      .select2-selection__placeholder {
-        font-family: "sora-regular";
-        font-size: $font14;
-        line-height: $leading20;
-        color: $color-4B5563;
-      }
-    }
-
-    .select2-selection__arrow {
-      width: 12px;
-      height: 9px;
-      background-image: url("/public/assets/images/icon/select-arrow.svg");
-      background-repeat: no-repeat;
-      background-size: 12px 9px;
-      margin-top: 16px;
-      transform: rotate(0deg);
-      transition: all 0.3s ease-in-out;
-
-      b {
-        display: none !important;
-      }
-    }
-  }
-}
-
-.select2-search {
-  display: none !important;
-}
-
-.categories-select2 {
-  background-color: $white;
-  border-radius: 0px 0px $radius8 $radius8;
-  border: 1px solid $color-E5E7EB;
-
-   .select2-results {
-    .select2-results__options {
-      list-style: none;
-      padding-left: 0px !important;
-      margin-bottom: 0px !important;
-
-      .select2-results__option {
-        padding:10px ;
-        font-family: "sora-regular";
-        font-size: $font12;
-        line-height: $leading20;
-        color: $color-2E3038;
-        &.select2-results__option--highlighted {
-          background-color: $color-E5E7EB;
-        }
-      }
-    }
+  &::placeholder {
+    color: $color-9CA3AF;
   }
 }
